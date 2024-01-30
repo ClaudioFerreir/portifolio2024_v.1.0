@@ -1,14 +1,14 @@
 import MainContent from './components/MainContent'
 import Sidebar from './components/Sidebar'
 
-import { GlobalStyle, Title } from './styles'
+import { GlobalStyle, MainTitle } from './styles'
 
 function App() {
   return (
     <>
       <GlobalStyle />
       <div id="portifolio">
-        <Title>Claudio Ferreira</Title>
+        <MainTitle>Claudio Ferreira</MainTitle>
         <Sidebar />
         <MainContent />
       </div>

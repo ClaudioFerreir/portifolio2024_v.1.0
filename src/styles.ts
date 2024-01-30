@@ -1,4 +1,4 @@
-import styled, { createGlobalStyle } from 'styled-components'
+import styled, { createGlobalStyle, css } from 'styled-components'
 
 export const variables = {
   primaryTextColor: '#FFF',
@@ -36,7 +36,7 @@ export const GlobalStyle = createGlobalStyle`
   }
   `
 
-export const Title = styled.h1`
+export const MainTitle = styled.h1`
   width: 100%;
   font-size: 5rem;
   margin-bottom: 4rem;
@@ -51,4 +51,36 @@ export const BtnLink = styled.a`
   background: ${variables.gradient};
   text-decoration: none;
   border-radius: 3rem;
+`
+
+export const GradientBorder = css`
+  content: '';
+  background: ${variables.gradient};
+  height: 3px;
+  width: 30%;
+`
+
+//Sections Standard
+
+export const Container = styled.section`
+  display: flex;
+  flex-direction: column;
+`
+export const Title = styled.h2`
+  display: flex;
+  justify-content: start;
+  align-items: center;
+  gap: 1rem;
+  color: ${variables.primaryTextColor};
+  font-size: 2.2rem;
+  margin-bottom: 1.3rem;
+
+  &:after {
+    ${GradientBorder};
+  }
+`
+export const Content = styled.p`
+  color: ${variables.secondaryTextColor};
+  font-size: 1rem;
+  line-height: 1.5;
 `

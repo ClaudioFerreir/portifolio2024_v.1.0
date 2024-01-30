@@ -26,4 +26,5 @@ export const Title = styled.h2`
   border-radius: ${variables.cardBorderRadius};
   margin-top: 12rem;
   padding: 0.8rem 1.2rem;
+  font-size: 1.2rem;
 `

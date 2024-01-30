@@ -13,10 +13,10 @@ export const InfoContainer = styled.div`
   border-radius: ${variables.cardBorderRadius};
 
   p {
-    color: ${variables.secondaryTextColor};
+    color: ${variables.primaryTextColor};
     font-weight: bold;
-    font-size: 1rem;
-    padding: 0.5rem 0.5rem;
+    font-size: 0.9rem;
+    padding: 0.3rem 0.2rem;
   }
 
   svg {
