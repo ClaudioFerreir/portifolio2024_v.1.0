@@ -81,6 +81,14 @@ export const TechList = styled.ul`
   #Cypress {
     color: #17202c;
   }
+
+  #MySQL {
+    color: #00758f;
+  }
+
+  #PostgreSQL {
+    color: #336791;
+  }
 `
 
 export const TechItem = styled.li`

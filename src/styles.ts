@@ -46,6 +46,7 @@ export const MainTitle = styled.h1`
 `
 
 export const BtnLink = styled.a`
+  display; inline-block;
   padding: 1rem 1.2rem;
   color: ${variables.primaryTextColor};
   background: ${variables.gradient};

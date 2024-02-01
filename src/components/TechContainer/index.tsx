@@ -9,7 +9,9 @@ import {
   DiNodejsSmall,
   DiJqueryLogo,
   DiSass,
-  DiGrunt
+  DiGrunt,
+  DiMysql,
+  DiPostgresql
 } from 'react-icons/di'
 
 import { FaBootstrap, FaLess, FaVuejs } from 'react-icons/fa'
@@ -39,7 +41,9 @@ const technologies = [
   { id: 'VueJS', name: 'Vue.js', icon: FaVuejs },
   { id: 'Grunt', name: 'Grunt', icon: DiGrunt },
   { id: 'TestingLibrary', name: 'Testing Library', icon: SiTestinglibrary },
-  { id: 'Cypress', name: 'Cypress', icon: TbBrandCypress }
+  { id: 'Cypress', name: 'Cypress', icon: TbBrandCypress },
+  { id: 'MySQL', name: 'MySQL', icon: DiMysql },
+  { id: 'PostgreSQL', name: 'PostgreSQL', icon: DiPostgresql }
 ]
 
 const TechContainer = () => (
