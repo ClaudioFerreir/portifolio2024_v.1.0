@@ -10,6 +10,10 @@ export const TechList = styled.ul`
   list-style: none;
   row-gap: 0.5rem;
 
+  @media (max-width: 768px) {
+    grid-template-columns: repeat(5, 1fr);
+  }
+
   #Ruby {
     color: #cc342d;
   }

@@ -8,15 +8,24 @@ export const SidebarContainer = styled.aside`
   display: flex;
   align-items: center;
   flex-direction: column;
+  justify-content: space-between;
   text-align: center;
   position: relative;
-  padding: 3rem 0;
+  padding: 5rem 0;
+
+  @media (max-width: 768px) {
+    padding: 2rem 0;
+  }
 
   img {
     max-width: 70%;
     border-radius: ${variables.containerBorderRadius};
     position: absolute;
     top: -3rem;
+
+    @media (max-width: 768px) {
+      max-width: 50%;
+    }
   }
 `
 

@@ -33,6 +33,11 @@ export const GlobalStyle = createGlobalStyle`
     flex-wrap: wrap;
     padding: 3rem;
     gap: 3rem;
+
+    @media (max-width: 768px) {
+      padding: 1rem;
+      gap: 2rem;
+    }
   }
   `
 
@@ -43,6 +48,11 @@ export const MainTitle = styled.h1`
   background: ${variables.gradient};
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
+
+  @media (max-width: 768px) {
+    font-size: 4rem;
+    text-align: center;
+  }
 `
 
 export const BtnLink = styled.a`
